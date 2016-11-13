@@ -8,7 +8,10 @@
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/font-awesome/fontawesome-webfont.eot?v=4.2.0");
-  src: url("../fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("../fonts/font-awesome/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("../fonts/font-awesome/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("../fonts/font-awesome/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), 
+       url("../fonts/font-awesome/fontawesome-webfont.woff?v=4.2.0") format("woff"), 
+       url("../fonts/font-awesome/fontawesome-webfont.ttf?v=4.2.0") format("truetype"),
+       url("../fonts/font-awesome/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 .fa {
@@ -1736,10 +1739,10 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  font-family: "Times New Roman", serif;
+  font-family: "Lato", serif;
   font-size: 1.5rem;
   line-height: 1.6em;
-  color: black; }
+  color: #D41586; }
 
 a.fa {
   text-decoration: none; }
@@ -1769,13 +1772,13 @@ h4, h5, h6 {
   line-height: 1;
   margin-top: 0;
   margin-bottom: 10px;
-  font-family: "Impact", sans-serif; }
+  font-family: "Museomix", sans-serif; }
 
 h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   line-height: 120%;
   margin-top: 0;
-  font-family: "Impact", sans-serif;
+  font-family: "GothamRnd-Medium", sans-serif;
   margin-bottom: 0%; }
 
 h1 {
@@ -1809,11 +1812,11 @@ a {
   -moz-transition: all ease 0.3s; }
 
 a:hover {
-  color: #93ca54; }
+  color: #fff000; }
 
 a.btn {
   text-decoration: none;
-  background-color: #9FD067;
+  background-color: #32ccfe;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   color: white;
@@ -1831,7 +1834,7 @@ a.btn {
   font-weight: lighter; }
 
 a.btn:hover {
-  background: #93ca54; }
+  background: #D41586; }
 
 #header-arrow {
   font-size: 140px;
@@ -2052,7 +2055,7 @@ ul li {
   margin-bottom: 0rem;
   text-align: center;
   color: white;
-  background: #0099cc no-repeat center center;
+  background: #D41586 no-repeat center center;
   background-size: cover; }
 
 #blog-logo img {
@@ -2080,7 +2083,7 @@ ul li {
   font-size: 1.8rem;
   line-height: 1.5em;
   font-weight: 300;
-  font-family: "Times New Roman", serif;
+  font-family: "Lato", serif;
   letter-spacing: 0; }
 
 .post-holder {
@@ -2090,7 +2093,7 @@ ul li {
   position: relative; }
 
 .oneOff {
-  background: #5BA4E5;
+  background: #32ccfe;
   color: #fff; }
 
 /* Every post, on every page, gets this style on its <article> tag */
@@ -2114,7 +2117,7 @@ ul li {
   top: 40px;
   left: 2%;
   z-index: 99999;
-  font-family: "Impact", sans-serif;
+  font-family: "GothamRnd-Medium", sans-serif;
   text-transform: uppercase;
   font-size: 1.5rem;
   line-height: 130%;
@@ -2129,10 +2132,10 @@ a.fn-item {
   color: white; }
 
 a.fn-item:hover {
-  color: #9FD067; }
+  color: #32ccfe !important }
 
 a.fn-item.active {
-  color: #93ca54;
+  color: #D41586 !important;
   opacity: 1; }
 
 .post-after {
@@ -2161,7 +2164,7 @@ a.fn-item.active {
 .post-meta {
   display: inline-block;
   margin: 0 0 5px 0;
-  font-family: "Impact", sans-serif;
+  font-family: "GothamRnd-Medium", sans-serif;
   font-size: 1.5rem;
   color: #9EABB3; }
 
@@ -2291,7 +2294,7 @@ a.fn-item.active {
   width: 80%;
   max-width: 700px;
   margin: 4rem auto;
-  font-family: "Impact", sans-serif;
+  font-family: "GothamRnd-Medium", sans-serif;
   font-size: 1.3rem;
   color: #9EABB3;
   text-align: center; }
@@ -2331,12 +2334,12 @@ a.fn-item.active {
   position: relative;
   margin: 0rem 0 0 0;
   padding: 1rem 0;
-  font-family: "Impact", sans-serif;
+  font-family: "GothamRnd-Medium", sans-serif;
   font-size: 1.3rem;
   line-height: 1.5em;
   color: #BBC7CC;
   text-align: center;
-  background: #22343A; }
+  background: #FFF000; }
 
 .site-footer a {
   color: #BBC7CC;
@@ -2568,6 +2571,7 @@ a.fn-item.active {
   .site-footer {
     /*margin-top: 0.8rem;*/
     font-size: 1.1rem; } }
+
 /* ==========================================================================
    End of file. Media queries should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
